@@ -439,17 +439,6 @@ text-decoration: none;
 .segundoinicio-container-mobile { display: block; }
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* ======================================
    PROPOSITO
 ====================================== */
@@ -678,19 +667,18 @@ position: relative;
 z-index: 2;
 display: block;
 font-family: 'Inter', sans-serif;
-font-size: 2rem;
-color: white !important;
+font-size: 2.5rem;
+color: #FFFFFF !important;
 text-decoration: none;
 text-transform: uppercase;
 text-align: center;   
 line-height: 1.6;
-margin: 0 0 16px 0;
+margin: 0px;
 }
 .acercadelarevista-title a {
-color: white !important;
+color: #FFFFFF !important;
 text-decoration: none;
 }
-
 /* CONTROL */
 .acercadelarevista-container { display: block; }
 .acercadelarevista-container-mobile { display: none; }
@@ -706,25 +694,25 @@ box-sizing: border-box;
 background: #0A1128 !important;
 border-radius: 0px;
 margin: 0px auto;
-padding: 20px;   
+padding: 20px;
 }
 .acercadelarevista-title-mobile {
 position: relative;
 z-index: 2;
 display: block;
 font-family: 'Inter', sans-serif;
-font-size: 1.5rem;
-color: white !important;
+font-size: 2rem;
+color: #FFFFFF !important;
 text-decoration: none;
 text-transform: uppercase;
 text-align: center;   
-margin: 0 0 10px 0;   
+line-height: 1.6;
+margin: 0px;
 }
 .acercadelarevista-title-mobile a {
-color: white !important;
+color: #FFFFFF !important;
 text-decoration: none;
 }
-
 /* CONTROL */
 .acercadelarevista-container { display: none; }
 .acercadelarevista-container-mobile { display: block; }
@@ -741,22 +729,6 @@ background: #FFFFFF !important;
 border-radius: 0px;
 margin: 0px auto;
 padding: 30px;
-}
-.contacto-title {
-position: relative;
-z-index: 2;
-display: block;
-font-family: 'Inter', sans-serif;
-font-size: 2rem;
-color: #0C2A1F !important;
-text-decoration: none;
-text-transform: uppercase;
-text-align: center;   
-margin: 0 0 10px 0;
-}
-.contacto-title a {
-color: #0C2A1F !important;
-text-decoration: none;
 }
 /* CONTENEDOR: INFORMACIÓN */
 .contacto-information {
@@ -802,7 +774,6 @@ font-weight: bold;
 /* CONTROL */
 .contacto-container { display: block; }
 .contacto-container-mobile { display: none; }
-
 /* ======================================
    MOVIL RESPONSIVE: CONTACTO
 ====================================== */
@@ -815,22 +786,6 @@ background: #FFFFFF !important;
 border-radius: 0px;
 margin: 0px auto;
 padding: 20px;
-}
-.contacto-title-mobile {
-position: relative;
-z-index: 2;
-display: block;
-font-family: 'Inter', sans-serif;
-font-size: 1.5rem;
-color: #0C2A1F !important;
-text-decoration: none;
-text-transform: uppercase;
-text-align: center;   
-margin: 0 0 10px 0;
-}
-.contacto-title-mobile a {
-color: #0C2A1F !important;
-text-decoration: none;
 }
 /* CONTENEDOR: INFORMACIÓN */
 .contacto-information-mobile {
