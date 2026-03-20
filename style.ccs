@@ -549,7 +549,6 @@ transform: scale(1.05);
 /* CONTROL */
 .proposito-container { display: block; }
 .proposito-container-mobile { display: none; }
-
 /* ======================================
    MOVIL RESPONSIVE: PROPOSITO
 ====================================== */
@@ -650,49 +649,6 @@ transform: scale(1.05);
 .proposito-container { display: none; }
 .proposito-container-mobile { display: block; }
 }
-
-
-/* ======================================
-   OCULTAR TODAS LAS SECCIONES PC
-====================================== */
-.main-section:not(#inicio),
-.subsection:not([id^="inicio-"]) { display: none; }
-
-/* DEJAR SOLO LA SECCIÓN HOME */
-#inicio { display: block; }
-#inicio-actividades,
-#inicio-mayorinformacion,
-#inicio-escribenos { display: block; }
-
-/* ======================================
-   OCULTAR TODAS LAS SECCIONES MOBILE
-====================================== */
-@media (max-width: 768px) {
-.main-section.mobile-only:not(#inicio),
-.subsection.mobile-only:not([id^="inicio-"]) { display: none; }
-
-/* DEJAR SOLO LA SECCIÓN HOME MOBILE */
-#inicio-mobile { display: flex; }
-#inicio-actividades-mobile,
-#inicio-mayorinformacion-mobile,  
-#inicio-escribenos-mobile { display: block; }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -825,4 +781,3 @@ color: #87CEEB !important;
 /* CONTROL */
 .footer { display: block; }
 .footer-mobile { display: none; }
-
