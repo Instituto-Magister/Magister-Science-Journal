@@ -1,0 +1,1 @@
+magistersciencejournal.github.io
